@@ -2,7 +2,7 @@ class CastingNumbers
 {
     public static void main(String[] args)
     {
-        double above = 1.7, below =0.4;
+        final double above = 1.7, below =0.4;
         System.out.println("Above: " + above);
         System.out.println("Below: " + below);
 
